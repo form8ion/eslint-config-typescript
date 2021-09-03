@@ -14,7 +14,7 @@
 
 * [Usage](#usage)
   * [Installation](#installation)
-  * [Example](#example)
+  * [Add to the project config](#add-to-the-project-config)
 * [Contributing](#contributing)
   * [Dependencies](#dependencies)
   * [Verification](#verification)
@@ -34,10 +34,14 @@
 $ npm install @form8ion/eslint-config-typescript --save-dev
 ```
 
-### Example
+### Add to the project config
 
-```javascript
-const eslintConfigTypescript = require('.');
+Such as in an `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ['@form8ion', '@form8ion/typescript']
+};
 ```
 
 ## Contributing
