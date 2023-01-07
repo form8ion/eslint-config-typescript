@@ -29,7 +29,7 @@
     "@form8ion/commitlint-config": "1.0.41",
     "@form8ion/eslint-config": "1.7.27",
     "@form8ion/remark-lint-preset": "2.1.1",
-    "ban-sensitive-files": "1.9.16",
+    "ban-sensitive-files": "1.9.18",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.2",
     "lockfile-lint": "4.6.2",
